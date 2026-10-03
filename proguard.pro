@@ -1,0 +1,7 @@
+-microedition
+-dontobfuscate
+-dontoptimize
+-dontshrink
+-dontwarn **
+-keep public class CelesteMIDlet
+-keepclassmembers class * { *; }
